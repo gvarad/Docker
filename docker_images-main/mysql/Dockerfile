@@ -33,3 +33,4 @@ ENV MYSQL_ROOT_PASSWORD=root
 COPY student.sql /docker-entrypoint-initdb.d/
 
 EXPOSE 3306
+
